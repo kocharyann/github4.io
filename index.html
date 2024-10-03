@@ -1,0 +1,150 @@
+<!DOCTYPE html> 
+ 
+<html lang="en"> 
+ 
+<head> 
+  <meta charset="UTF-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1"> 
+  <title>kocharyann</title> 
+  <link rel="stylesheet" href="style.css"> 
+</head> 
+<body> 
+<header> 
+  <div class="logo-container"> 
+  <img class="picture-logo" src="image5.jpg" alt="логотип" /> 
+  <h3 class="title">ДЗ ПО ВЕБУ by kocharyan polina</h3> 
+  </div> 
+  <nav class="menu"> 
+    <a href="./#hyperlinks">Меню</a> 
+    <a href="./#table">Таблица</a> 
+    <a href="./#forma">Форма</a> 
+  </nav> 
+</header> 
+<div class="content-container"> 
+<div id="hyperlinks" class="content"> 
+  <ul> 
+    <li><a href="http://kubsu.ru">Абсолютная гиперссылка на главную страницу сайта kubsu.ru</a></li> 
+    <li><a href="https://www.ysl.com/en-us">Абсолютная гиперссылка на сайт бренда YSL в протоколе https</a></li> 
+    <li><a href="https://cdn1.ozone.ru/s3/multimedia-q/6762754286.jpg"><img src="https://cdn1.ozone.ru/s3/multimedia-q/6762754286.jpg" height="250" width="250" alt="Ссылка-изображение"></a></li> 
+    <li><a href="/inside">Сокращенная ссылка на внутреннюю страницу</a></li> 
+    <li><a href="/">Сокращенная ссылка на главную страницу</a></li> 
+    <li><a href="#selection1">Ссылка на фрагмент текущей страницы</a></li> 
+    <li><a href="https://ru.wikipedia.org/wiki/Мода_1920-х_годов#Платья?m1=a1&m2=a2&m3=a3">Мода 1920-х годов(cсылка с тремя параметрами в URL)</a></li> 
+    <li><a href="https://siriusmag.ru/articles/1346-zenskaa-krasota/?id=city">Идеал красоты в различные эпохи(ссылка с параметром id)</a></li>
+    <li><a href="./lalal">Относительная ссылка на страницу в текущем каталоге</a></li> 
+    <li><a href="./about/cosmos">Относительная ссылка на страницу в каталоге about</a></li> 
+    <li><a href="../star">Относительная ссылка на страницу в каталоге уровнем выше текущего</a></li> 
+    <li><a href="../../lofa">Относительная ссылка на страницу в каталоге двумя уровнями выше</a></li> 
+    <li><p>Это <a href="https://ru.wikipedia.org/wiki/Мода">Мода это..(контекстная ссылка)</a> в тексте абзаца</p></li>
+    <li><a href="https://www.wildberries.ru/catalog/222220418/detail.aspx#fragment">Сумка Hermes с вб(ссылка на фрагмент страницы стороннего сайта)</a></li>
+    <li>
+        <img src="imageforveb.JPEG" usemap="#map" alt="Bag and Shoes" width="300" height="200">
+        <map name="map">
+            <area shape="rect" coords="220,20,270,160" alt="туфли" href="https://www.wildberries.ru/catalog/238229374/detail.aspx">
+            <area shape="circle" coords="110,85,40" alt="сумка" href="https://www.wildberries.ru/catalog/232111380/detail.aspx">
+        </map>
+    </li> 
+    <li><a href="">Ссылка с пустым href</a></li> 
+    <li><a>Ссылка без href</a></li> 
+    <li><a href="https://privorot-gadalka.ru/?yclid=16280251729991172095" rel="nofollow">Ссылка, по которой запрещен переход поисковикам</a></li> 
+    <li><noindex><a href="https://www.roblox.com/?ysclid=m1126no5kh879604123">Запрещенная для индексации поисковиками</a></noindex></li> 
+</ul> 
+<ol> 
+    <li><a href="https://www.miumiu.com/ww/en.html?ysclid=m1b0e8dr22647793470" title="Бренд">Бренд MiuMiu</a></li> 
+    <li><a href="https://jacquemus.juun.ru/women/63_сумки?yclid=10441858976185581567" title="Бренд">Бренд Jacquemus</a></li> 
+    <li><a href="https://row.jimmychoo.com/en/home" title="Бренд">Бренд Jimmy Choo</a></li> 
+</ol> 
+<ul> 
+    <li><a href="ftp://polina:123@https://vk.com/?ysclid=m112mr56ot896249699/info.txt">Ссылка на файл на сервере FTP с авторизацией</a></li> 
+</ul> 
+</div>
+
+<table id="table" class="content">
+  <tr>
+    <th>Напитки</th>
+    <th>Десерты</th>
+    <th>Фрукты</th>
+    <th>Еда</th>
+  </tr>
+  <tr>
+    <td colspan="2">Милкшейк</td>
+    <td>Персик</td>
+    <td>Долма</td>
+  </tr>
+  <tr>
+    <td>Айс латте</td>
+    <td>Фондан</td>
+    <td>Вишня</td>
+    <td>Хинкали</td>
+  </tr>
+  <tr>
+    <td>Чай</td>
+    <td>Круассан</td>
+    <td>Инжир</td>
+    <td>Стейк</td>
+  </tr>
+  <tr>
+    <td>Лимонад</td>
+    <td>Макаронс</td>
+    <td>Арбуз</td>
+    <td>Салат</td>
+  </tr>
+  <tr>
+    <td>Смузи</td>
+    <td>Чизкейк</td>
+    <td>Виноград</td>
+    <td>Хот-дог</td>
+  </tr>
+  <tr>
+    <td>Раф</td>
+    <td>Пахлава</td>
+    <td>Лимон</td>
+    <td>Онигири</td>
+  </tr>
+</table>
+</div>
+ 
+<form id="forma" class="content" method="post"> 
+    <label for="firstname">ФИО:</label> 
+    <input type="text" id="fio" name="firstname" ><br> 
+ 
+    <label for="phone">Телефон:</label> 
+    <input type="tel" id="phone" name="phone"><br> 
+ 
+    <label for="email">E-mail:</label> 
+    <input type="email" id="email" name="email"><br> 
+ 
+    <label for="birthdate">Дата рождения:</label> 
+    <input type="date" id="birthdate" name="birthdate"><br> 
+ 
+    <label>Пол:</label> 
+    <input type="radio" id="male" name="gender" value="male" checked> 
+    <label for="male">Мужской</label> 
+    <input type="radio" id="female" name="gender" value="female"> 
+    <label for="female">Женский</label><br> 
+ 
+    <label for="programming-languages">Любимый язык программирования:</label> 
+    <select id="programming-languages" name="programming-languages[]" multiple> 
+      <option value="Pascal">Pascal</option> 
+      <option value="C">C</option> 
+      <option value="C++">C++</option> 
+      <option value="JavaScript">JavaScript</option> 
+      <option value="PHP">PHP</option> 
+      <option value="Python">Python</option> 
+      <option value="Java">Java</option> 
+      <option value="Haskell">Haskell</option> 
+    </select><br> 
+    <label for="biography">Биография:</label><br> 
+    <textarea id="biography" name="biography"></textarea><br> 
+    <input type="checkbox" id="contract" name="contract" required> 
+    <label for="contract">С контрактом ознакомлен(а)</label><br> 
+ 
+    <input type="submit" value="Сохранить"> 
+  </form> 
+<footer> 
+  <div class="foo-body"> 
+    MADE BY POLINA KOCHARYAN;)) 
+  </div> 
+</footer> 
+</body> 
+</html>
